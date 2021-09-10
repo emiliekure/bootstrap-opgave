@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'RobotoSlab-Thin';
+  src: url(./RobotoSlab-Thin.woff2) format('woff2'),
+       url(./RobotoSlab-Thin.woff) format('woff');
+}

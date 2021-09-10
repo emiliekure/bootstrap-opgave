@@ -1,0 +1,113 @@
+.container {
+    padding: 24px 0;
+}
+
+.header {
+    padding-top: 16rem;
+    background-image: url(../../web/img/jaguar-etype.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+
+    .row {
+        align-items: flex-end;
+        justify-content: space-between;
+
+        h1 {
+            @include menu;
+            margin: 0;
+        }
+    
+        .menu {
+            justify-content: center;
+
+            .nav-link {
+                text-decoration: none;
+                padding: 0 $marpad/2;
+                @include menu;
+            }
+        }
+    }
+}
+
+h2 {
+    font-family: $headingfont;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: $marpad;
+}
+
+.title {
+    justify-content: center;
+}
+
+.figure {
+    box-shadow: $card-shadow;
+    padding: 0;
+
+    .figure-img {
+        margin: 0;
+    }
+
+    .figure-caption {
+        padding: 8px;
+        text-align: center;
+    }
+}
+
+.events {
+    list-style: none;
+    padding: $marpad/2;
+    box-shadow: $card-shadow;
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: $marpad/2;
+        padding-top: $marpad/2;
+
+        .date {
+            font-family: $headingfont;
+            align-self: center;
+
+            p {
+                margin: 0;
+            }
+        }
+
+        .info {
+            width: 80%;
+
+            h3 {
+                font-size: 1.25rem;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.tickets {
+    text-align: center;
+    justify-content: center;
+    box-shadow: $card-shadow;
+    padding: $marpad;
+    margin-bottom: $marpad;
+
+    .btn {
+        width: 30%;
+    }
+}
+
+footer {
+    background-color: black;
+    color: $white;
+    padding: $marpad;
+    text-align: center;
+
+    p {
+        margin: 0;
+    }
+}

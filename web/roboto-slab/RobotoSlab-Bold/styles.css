@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'RobotoSlab-Bold';
+  src: url(./RobotoSlab-Bold.woff) format('woff'),
+       url(./RobotoSlab-Bold.woff2) format('woff2');
+}

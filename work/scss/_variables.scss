@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'RobotoSlab-Regular';
+    src: url(../../web/roboto-slab/RobotoSlab-Regular/RobotoSlab-Regular.woff) format('woff'),
+        url(../../web/roboto-slab/RobotoSlab-Regular/RobotoSlab-Regular.woff2) format('woff2'),
+        url(../../web/roboto-slab/RobotoSlab-Regular/RobotoSlab-Regular.ttf) format('truetype');
+}
+
+$headingfont: 'RobotoSlab-Regular', sans-serif;
+$white: #ffffff;
+$marpad: 32px;
+$card-shadow: 0px 0px 10px rgba(102, 102, 102, 0.302);
+
+@mixin menu {
+    font-family: $headingfont;
+    color: $white;
+}
